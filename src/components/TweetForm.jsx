@@ -26,7 +26,7 @@ class TweetForm extends Component {
                 <form onSubmit={handleSubmit}>
                     <div className="form-container">
                         <div className="form-content">
-                            <input type="text" placeholder="What's happening?" onChange={onChange} name="content" id="content" />
+                            <input type="text" maxlength="280" placeholder="What's happening?" onChange={onChange} name="content" id="content" />
                         </div>
                         <div className="form-hash">
                             <input type="text" placeholder="hashtag" onChange={onChange} name="hashTag" id="hashTag" />
